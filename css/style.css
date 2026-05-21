@@ -1,0 +1,66 @@
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0b0f1a, #05070d);
+  color: #dbe7ff;
+}
+
+/* ===== CONTENEUR ===== */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+/* ===== CARDS (réutilisable partout) ===== */
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(120,180,255,0.15);
+  border-radius: 14px;
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 30px rgba(80,150,255,0.08);
+}
+
+/* ===== TITRES ===== */
+h1, h2, h3 {
+  color: #7cc4ff;
+  letter-spacing: 1px;
+}
+
+/* ===== BOUTONS ===== */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+
+  background: linear-gradient(90deg, #3aa0ff, #7c5cff);
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(80,140,255,0.3);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(120,180,255,0.5);
+}
+
+/* ===== NAVBAR ===== */
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav a {
+  color: #dbe7ff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.nav a:hover {
+  opacity: 1;
+  color: #7cc4ff;
+}
